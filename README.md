@@ -1,16 +1,17 @@
-# recipes
+# Recipes App
 
-A new Flutter project.
+A simple recipes app made with Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+_Project inspired by Medium tutorials by [Michael Krol](https://medium.com/@michael.krol)._
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/Luckey-Elijah/Simple-Recipes-Flutter.git
+cd Simple-Recipes-Flutter
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Preview
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+_Coming Soon!_

@@ -10,7 +10,7 @@ class RecipesApp extends StatelessWidget {
       title: 'Recipes',
       initialRoute: '/login',
       routes: {
-        '/': (context) => LoginScreen(),
+        '/': (context) => HomeScreen(),
         '/login': (context) => LoginScreen(),
       },
       theme: buildTheme(),

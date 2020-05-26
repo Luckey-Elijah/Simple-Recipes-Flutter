@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/login.dart';
+import 'theme.dart';
 
 class RecipesApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -12,6 +13,7 @@ class RecipesApp extends StatelessWidget {
         '/': (context) => LoginScreen(),
         '/login': (context) => LoginScreen(),
       },
+      theme: buildTheme(),
     );
   }
 }

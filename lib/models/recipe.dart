@@ -4,7 +4,7 @@ enum RecipeType {
 }
 
 class Recipe {
-  final Recipe type;
+  final RecipeType type;
   final String id;
   final String name;
   final Duration duration;

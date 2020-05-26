@@ -24,8 +24,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.3
-  # google_fonts:
   duration:
+  firebase_auth:
+  google_sign_in:
 
 dev_dependencies:
   flutter_test:

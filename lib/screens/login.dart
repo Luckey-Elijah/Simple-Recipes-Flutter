@@ -22,7 +22,6 @@ class LoginScreen extends StatelessWidget {
     }
 
     return Scaffold(
-      backgroundColor: Colors.lightBlue,
       body: Container(
         decoration: _buildBackground(),
         child: Center(

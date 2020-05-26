@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
+import '../widgets/google_sign_in_button.dart';
 
 class LoginScreen extends StatelessWidget {
-  // const LoginScreen({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     BoxDecoration _buildBackground() {
       return BoxDecoration(
         image: DecorationImage(
-          fit: BoxFit.fitHeight,
-          image: AssetImage('images/brooke-lark-wMzx2nBdeng-unsplash.jpg'),
+          fit: BoxFit.cover,
+          image: AssetImage('images/login-page-background-image.jpg'),
         ),
       );
     }
@@ -32,11 +31,9 @@ class LoginScreen extends StatelessWidget {
             children: <Widget>[
               _buildText(),
               SizedBox(height: 50.0),
-              MaterialButton(
-                color: Colors.white,
-                child: Text('Sign In with Google'),
-                onPressed: () => print('MaterialButton pressed.'),
-              ),
+              GoogleSignInButton(
+                onPressed: () => print('GoogleSignInButton pressed.'),
+              )
             ],
           ),
         ),

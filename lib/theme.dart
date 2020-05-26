@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 
 ThemeData buildTheme() {
+  // override default blue theme
+  final ThemeData base = ThemeData.light();
+
+  // Theme builder
   TextTheme _buildTexttheme(TextTheme base) {
     return base.copyWith(
       headline1: base.headline1.copyWith(
@@ -11,9 +15,6 @@ ThemeData buildTheme() {
       ),
     );
   }
-
-  // override default blue theme
-  final ThemeData base = ThemeData.light();
 
   // Apply the changes on it
   return base.copyWith(
